@@ -3,6 +3,19 @@
 <head>
   <title>Happy Valentine’s Day ❤️</title>
   <style>
+    body {
+      background-color: #ffe6eb;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #d6336c;
+    }
+    p {
+      font-size: 20px;
+    }
+    
   .photo {
   width: 400px;
   border-radius: 20px;
@@ -32,7 +45,6 @@
   </style>
 </head>
 <body>
-}
 <script>
   function createHeart() {
     const heart = document.createElement("div");
@@ -40,9 +52,7 @@
     heart.innerHTML = "❤️";
     heart.style.left = Math.random() * 100 + "vw";
     heart.style.fontSize = (Math.random() * 20 + 15) + "px";
-
     document.body.appendChild(heart);
-
     setTimeout(() => {
       heart.remove();
     }, 6000);
@@ -50,18 +60,8 @@
 
   setInterval(createHeart, 400);
 </script>
-    body {
-      background-color: #ffe6eb;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #d6336c;
-    }
-    p {
-      font-size: 20px;
-    }
+  
+
 
   <h1>Happy Valentine’s Day 💕</h1>
   <p>You make my world brighter every single day.</p>
